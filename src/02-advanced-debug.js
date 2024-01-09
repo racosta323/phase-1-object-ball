@@ -26,3 +26,9 @@ function goodPractices() {
 
 // then, call the function so it runs!
 goodPractices()
+
+function numPointsScored (playerName){
+ return gameObject()["home"]["players"]["points"];
+}
+
+console.log(numPointsScored)
